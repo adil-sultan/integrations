@@ -22,7 +22,7 @@ updates:
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/cdn_profiles' # Location of package manifests
+    directory: '/azure/cdn_profiles/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
