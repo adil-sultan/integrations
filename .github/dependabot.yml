@@ -6,246 +6,242 @@
 version: 2
 updates:
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/aad_domainservices' # Location of package manifests
+    directory: '/azure/aad_domainservices/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/apimanagement_service' # Location of package manifests
+    directory: '/azure/apimanagement_service/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/cache_redis' # Location of package manifests
+    directory: '/azure/cache_redis/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/cdn_cdnwebapplicationfirewallpolicies' # Location of package manifests
+    directory: '/azure/cdn_cdnwebapplicationfirewallpolicies/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/cdn_profiles' # Location of package manifests
+    directory: '/azure/cdn_profiles/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/cognitiveservices_accounts' # Location of package manifests
+    directory: '/azure/cognitiveservices_accounts/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/compute_cloudservices' # Location of package manifests
+    directory: '/azure/compute_cloudservices/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/compute_cloudservices_roles' # Location of package manifests
+    directory: '/azure/compute_cloudservices_roles/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/compute_disks' # Location of package manifests
+    directory: '/azure/compute_disks/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/compute_virtualmachines' # Location of package manifests
+    directory: '/azure/compute_virtualmachines/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/compute_virtualmachinescalesets' # Location of package manifests
+    directory: '/azure/compute_virtualmachinescalesets/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/compute_virtualmachinescalesets_virtualmachines' # Location of package manifests
+    directory: '/azure/compute_virtualmachinescalesets_virtualmachines/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/containerinstance_containergroups' # Location of package manifests
+    directory: '/azure/containerinstance_containergroups/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/containerinstance_containerscalesets' # Location of package manifests
+    directory: '/azure/containerinstance_containerscalesets/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/containerregistry_registries' # Location of package manifests
+    directory: '/azure/containerregistry_registries/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/containerservice_managedclusters' # Location of package manifests
+    directory: '/azure/containerservice_managedclusters/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/dataprotection_backupvaults' # Location of package manifests
+    directory: '/azure/dataprotection_backupvaults/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/dbformariadb_servers' # Location of package manifests
+    directory: '/azure/dbformariadb_servers/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/dbformysql_flexibleservers' # Location of package manifests
+    directory: '/azure/dbformysql_flexibleservers/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/dbformysql_servers' # Location of package manifests
+    directory: '/azure/dbformysql_servers/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/dbforpostgresql_flexibleservers' # Location of package manifests
+    directory: '/azure/dbforpostgresql_flexibleservers/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/dbforpostgresql_servergroupsv2' # Location of package manifests
+    directory: '/azure/dbforpostgresql_servergroupsv2/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/dbforpostgresql_servers' # Location of package manifests
+    directory: '/azure/dbforpostgresql_servers/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/dbforpostgresql_serversv2' # Location of package manifests
+    directory: '/azure/dbforpostgresql_serversv2/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/documentdb_cassandraclusters' # Location of package manifests
+    directory: '/azure/documentdb_cassandraclusters/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/documentdb_databaseaccounts' # Location of package manifests
+    directory: '/azure/documentdb_databaseaccounts/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/documentdb_mongocluster' # Location of package manifests
+    directory: '/azure/documentdb_mongocluster/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventgrid_domains' # Location of package manifests
+    directory: '/azure/eventgrid_domains/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventgrid_eventsubscriptions' # Location of package manifests
+    directory: '/azure/eventgrid_eventsubscriptions/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventgrid_extensiontopics' # Location of package manifests
+    directory: '/azure/eventgrid_extensiontopics/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventgrid_namespaces' # Location of package manifests
+    directory: '/azure/eventgrid_namespaces/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventgrid_partnernamespaces' # Location of package manifests
+    directory: '/azure/eventgrid_partnernamespaces/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventgrid_partnertopics' # Location of package manifests
+    directory: '/azure/eventgrid_partnertopics/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventgrid_systemtopics' # Location of package manifests
+    directory: '/azure/eventgrid_systemtopics/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventgrid_topics' # Location of package manifests
+    directory: '/azure/eventgrid_topics/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventhub_clusters' # Location of package manifests
+    directory: '/azure/eventhub_clusters/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/eventhub_namespaces' # Location of package manifests
+    directory: '/azure/eventhub_namespaces/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/keyvault_managedhsms' # Location of package manifests
+    directory: '/azure/keyvault_managedhsms/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/keyvault_vaults' # Location of package manifests
+    directory: '/azure/keyvault_vaults/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/kubernetes_connectedclusters' # Location of package manifests
+    directory: '/azure/kubernetes_connectedclusters/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/kubernetesconfiguration_extensions' # Location of package manifests
+    directory: '/azure/kubernetesconfiguration_extensions/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/machinelearningservices_workspaces' # Location of package manifests
+    directory: '/azure/machinelearningservices_workspaces/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/machinelearningservices_workspaces_onlineendpoints' # Location of package manifests
+    directory: '/azure/machinelearningservices_workspaces_onlineendpoints/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/machinelearningservices_workspaces_onlineendpoints_deployments' # Location of package manifests
+    directory: '/azure/machinelearningservices_workspaces_onlineendpoints_deployments/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/network_applicationgateways' # Location of package manifests
+    directory: '/azure/network_applicationgateways/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/network_azurefirewalls' # Location of package manifests
+    directory: '/azure/network_azurefirewalls/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/network_loadbalancers' # Location of package manifests
+    directory: '/azure/network_loadbalancers/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/network_natgateways' # Location of package manifests
+    directory: '/azure/network_natgateways/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/network_networkinterfaces' # Location of package manifests
+    directory: '/azure/network_networkinterfaces/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/servicebus_namespaces' # Location of package manifests
+    directory: '/azure/servicebus_namespaces/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/sql_managedinstances' # Location of package manifests
+    directory: '/azure/sql_managedinstances/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/sql_servers_databases' # Location of package manifests
+    directory: '/azure/sql_servers_databases/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/sql_servers_elasticpools' # Location of package manifests
+    directory: '/azure/sql_servers_elasticpools/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/storage_storageaccounts' # Location of package manifests
+    directory: '/azure/storage_storageaccounts/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/storage_storageaccounts_blobservices' # Location of package manifests
+    directory: '/azure/storage_storageaccounts_blobservices/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/storage_storageaccounts_fileservices' # Location of package manifests
+    directory: '/azure/storage_storageaccounts_fileservices/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/storage_storageaccounts_objectreplicationpolicies' # Location of package manifests
+    directory: '/azure/storage_storageaccounts_objectreplicationpolicies/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/storage_storageaccounts_queueservices' # Location of package manifests
+    directory: '/azure/storage_storageaccounts_queueservices/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/storage_storageaccounts_storagetasks' # Location of package manifests
+    directory: '/azure/storage_storageaccounts_storagetasks/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
   - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/storage_storageaccounts_tableservices' # Location of package manifests
-    schedule:
-      interval: 'daily'
-  - package-ecosystem: 'terraform' # See documentation for possible values
-    directory: '/azure/tester' # Location of package manifests
+    directory: '/azure/storage_storageaccounts_tableservices/dashboards/overview' # Location of package manifests
     schedule:
       interval: 'daily'
